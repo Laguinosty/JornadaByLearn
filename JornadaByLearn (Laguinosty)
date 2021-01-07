@@ -1,0 +1,12 @@
+def calcular_media(Leonardo):
+  quantidade = len(Leonardo)
+  soma = sum(Leonardo)
+  media = soma / quantidade
+  print('O aluno tirou', media)
+  verificar_aprovacao(media)
+def verificar_aprovacao(media):
+  if media >= 7:
+    print('Leonardo foi Aprovado :)')
+  else:    print('Leonardo foi Reprovado :(')
+
+calcular_media([10, 9.7, 4.9, 8, 7])
